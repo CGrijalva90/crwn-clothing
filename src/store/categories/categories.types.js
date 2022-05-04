@@ -1,0 +1,5 @@
+const CATEGOIRES_ACTION_TYPES = {
+  SET_CATEGORIES: "category/SET_CATEGORIES",
+};
+
+export default CATEGOIRES_ACTION_TYPES;
