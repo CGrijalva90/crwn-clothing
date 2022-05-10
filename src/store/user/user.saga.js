@@ -13,7 +13,6 @@ import {
   signOutFailed,
   signOutSuccess,
   signUpFailed,
-  signUpStart,
   signUpSuccess,
 } from "./user.action";
 import USER_ACTION_TYPES from "./user.types";

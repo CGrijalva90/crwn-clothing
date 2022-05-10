@@ -24,6 +24,9 @@ const Category = () => {
 
   return (
     <Fragment>
+      {console.log(
+        `-----------${process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY}----------------`
+      )}
       <Title>{category.toUpperCase()}</Title>
       {isLoading ? (
         <Spinner />
